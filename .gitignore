@@ -1,0 +1,63 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/build
+/dist-server
+/tmp
+/out-tsc
+/www
+/platforms
+/package-lock.json
+ios/**/*
+ios/App/App.xcworkspace/xcshareddata/xcschemes/
+android/**/*
+e2e
+firebase.json
+# dependencies
+/node_modules
+resources
+gernerate-h2-push.js
+LICENSE
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+.angular/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+.angular/*
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+build/
+dist/
+node_modules/
+.secret-*
+**.sample
